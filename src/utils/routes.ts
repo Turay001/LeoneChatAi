@@ -16,4 +16,6 @@ export const router = createBrowserRouter([
       { path: "how-it-works", Component: HowItWorks },
     ],
   },
-]);
+], {
+  basename: "/LeoneChat",
+});
