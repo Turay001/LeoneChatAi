@@ -17,5 +17,5 @@ export const router = createBrowserRouter([
     ],
   },
 ], {
-  basename: "/LeoneChat",
+  basename: "/LeoneChatAi",
 });
