@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # LeoneChat Verification Platform
 
@@ -9,3 +10,7 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# LeoneChat
+Cyber watch dog
+>>>>>>> 48aa15c2354ca8918d88f325cc2f108c65798d1c
