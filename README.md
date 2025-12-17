@@ -1,16 +1,31 @@
-<<<<<<< HEAD
+# LeoneChat Verification Platform
 
-  # LeoneChat Verification Platform
+Cyber watch dog - A platform for verifying and reporting suspicious messages and potential scams in Sierra Leone.
 
-  This is a code bundle for LeoneChat Verification Platform. The original project is available at https://www.figma.com/design/BkcRXCaTmpJrZpcuira7D2/LeoneChat-Verification-Platform.
+## Live Demo
 
-  ## Running the code
+🔗 [https://turay001.github.io/LeoneChatAi/](https://turay001.github.io/LeoneChatAi/)
 
-  Run `npm i` to install the dependencies.
+## Features
 
-  Run `npm run dev` to start the development server.
-  
-=======
-# LeoneChat
-Cyber watch dog
->>>>>>> 48aa15c2354ca8918d88f325cc2f108c65798d1c
+- 🛡️ Real-time threat dashboard
+- 📊 Community reporting hub with Google Sheets integration
+- 📸 Screenshot uploads to Google Drive
+- 🔍 Scam verification and education
+- 📱 Responsive design for all devices
+
+## Running the code
+
+Run `npm i` to install the dependencies.
+
+Run `npm run dev` to start the development server.
+
+Run `npm run build` to build for production.
+
+## Google Sheets Integration
+
+Reports are automatically saved to Google Sheets with uploaded screenshots stored in Google Drive. See [README_SHEETS_SETUP.md](README_SHEETS_SETUP.md) for setup instructions.
+
+## Original Design
+
+This project is based on the [LeoneChat Verification Platform Figma design](https://www.figma.com/design/BkcRXCaTmpJrZpcuira7D2/LeoneChat-Verification-Platform).
