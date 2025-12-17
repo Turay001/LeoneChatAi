@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA redirect hack
+      // https://github.com/rafgraph/spa-github-pages
+      // This script stores the path in sessionStorage and redirects to the base URL
+      sessionStorage.redirect = location.href;
+      location.replace(location.origin + location.pathname.split('/').slice(0, 2).join('/'));
+    </script>
+  </head>
+  <body></body>
+</html>
