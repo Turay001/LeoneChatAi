@@ -7,19 +7,11 @@
       <title>LeoneChat Verification Platform</title>
     <script>
       // GitHub Pages SPA redirect handler
-      // Store the current path before GitHub Pages redirects to 404.html
+      // Restore the URL after redirect from 404.html
       (function() {
-        var redirect = sessionStorage.redirect;
-        delete sessionStorage.redirect;
-        if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
-        }
-      })();
-    </script>
-  </head>
-
-  <body>
-    <div id="root"></div>
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
